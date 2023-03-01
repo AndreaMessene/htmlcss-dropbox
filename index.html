@@ -15,25 +15,23 @@
 <body>
 
     <nav>
-        <div class="cont-nav flex jc-b ai-c">
-            <div> 
-                <ul class="nav-list">
-                    <li id="logo"><img class="logo" src="./assets/img/logo-small.png"alt="logo"><li>               
-                    <li><a href="">Perché Dropbox</a></li>
-                    <li><a href="">Funzioi</a></li>
-                    <li><a href="">Piani e Prezzi</a></li>
-                </ul>
-            </div>
+        <div class="cont-nav">
+            <ul>
+                <li><a href=""></a><img src="./assets/img/logo-small.png" alt=""></li>
+                <li><a href="">Perché Dropbox</a></li>
+                <li><a href="">Funzioni</a></li>
+                <li><a href="">Piani e Prezzi</a></li>
+            </ul>
 
-            <div>
-                <ul class="nav-list">                    
-                    <li><a href="">Supporto</a></li>
-                    <li><a href="">Contatta l'ufficio vendite</a></li>
-                    <li><button class="white-button-nav">Accedi</button></li>
-                    <li><button class="blue-button-nav">Inizia</button></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="">Suporto</a></li>
+                <li><a href="">Contatta l'ufficio vendite </a></li>
+                <li><a href=""><button>Accedi</button></a></li>
+                <li><a href=""><button>Inizia</button></a></li>
+            </ul>
+
         </div>
+        
     </nav>
 
     <header>
@@ -47,7 +45,7 @@
                     <div class="prova-gratuita">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. DropBox Business è più un spazio di archiviazione sicuro: è un modo inteligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
 
-                        <a href="#"><button>inizia la tua prova gratuita </button></a>
+                        <a href="#"><button class="blue">inizia la tua prova gratuita </button></a>
                         
                         <p>Annulla in qualsiasi momento</p>
 
@@ -64,7 +62,7 @@
 
         <section>
             <div class="cont-subscription">
-                <h2>Trova il piano bisiness che fa per te</h2>
+                <h2 class="size-piano-bisness">Trova il piano bisiness che fa per te</h2>
                 <div class="input-radio">
                     <span><input type="radio" name="option"> Fatturazione   mensile</span>
                     <span><input type="radio" name="option"> Fatturazione   annuale</span>
@@ -79,7 +77,7 @@
                         </div>
                         <div class="professional">
                             <div class="professional-box flex fd-col">
-                                <h3>Professional</h3>
+                                <h3 class="h3-abbonamenti">Professional</h3>
                                 <br>
                                 <span class="prezzo">
                                     &#8364 12.00
@@ -97,16 +95,16 @@
                                     <i class="fa-solid fa-share-nodes"></i> Funzoni diproduttività premium e condivisiionedi file semplice e sicura
                                 </span>
                                 
-                                <a href=""><button class="prova-gratuita">Prova gratuita per 30 giorni</button></a>
+                                <a href=""><button class="blue">Prova gratuita per 30 giorni</button></a>
 
                                 <span>
                                     oppure <a href="#">aquista ora</a>
                                 </span>
-                                <hr>
+
+                                <hr class="hr-subscription">
 
                                 <h4>Punti salienti del piano</h4>
 
-                                
                                 <span>
                                     <i class="fa-solid fa-check"> </i> Invia file fino a 100 GB con Dropbox Transfert
                                 </span>
@@ -126,7 +124,7 @@
                         </div>
                         <div class="professional">
                             <div class="professional-box flex fd-col">
-                                <h3>Advanced</h3>
+                                <h3 class="h3-abbonamenti">Advanced</h3>
                                 <br>
                                 <span class="prezzo">
                                     &#8364 18.00
@@ -144,12 +142,13 @@
                                     <i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                                 </span>
                                 
-                                <a href=""><button class="prova-gratuita">Prova gratuita per 30 giorni</button></a>
+                                <a href=""><button class="blue">Prova gratuita per 30 giorni</button></a>
 
                                 <span>
                                     oppure <a href="#">aquista ora</a>
                                 </span>
-                                <hr>
+
+                                <hr class="hr-subscription">
 
                                 <h4>Punti salienti del piano</h4>
 
@@ -183,7 +182,7 @@
                         </div>
                         <div class="professional">
                             <div class="professional-box flex fd-col">
-                                <h3>Enterprise</h3>
+                                <h3 class="h3-abbonamenti">Enterprise</h3>
                                 <br>
                                 <span class="contattaci prezzo">
                                     Contattaci
@@ -198,13 +197,13 @@
                                     <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                                 </span>
                                 
-                                <a href=""><button class="prova-gratuita">Prova gratuita per 30 giorni</button></a>
+                                <a href=""><button class="blue">Prova gratuita per 30 giorni</button></a>
 
                                 <span>
                                     oppure <a href="#">aquista ora</a>
                                 </span>
                                 
-                                <hr>
+                                <hr class="hr-subscription">
 
                                 <h4>Punti salienti del piano</h4>
 
@@ -243,7 +242,7 @@
                     </div>
 
                     <div class="button-ufficio">
-                        <a href=""> <button>Contatta l'ufficio vendite</button> </a>
+                        <a href=""> <button class="blue">Contatta l'ufficio vendite</button> </a>
                     </div>
                 </div>
             </div>
@@ -270,7 +269,7 @@
 
         <section>
             <div class="dropbox dimensioni-box">
-                <h3>Esegui più operazioni con Dropbox Business
+                <h3 class="h3-operazioni">Esegui più operazioni con Dropbox Business
                 </h3>
                 <div class="box-funzioni flex f-wrap jc-b">
                     <!----- card 1 ------>
@@ -316,7 +315,7 @@
         <section>
             <div class="sondaggio dimensioni-box">
                 <div>
-                    <h2>Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+                    <h2 class="h2-sondaggio">Più di 500.000 team utilizzano <br> Dropbox Business</h2>
                 </div>
                 
                 <a href="#">Scopri di più sui nostri clienti</a>
@@ -326,7 +325,7 @@
 
         <section>
             <div class="cont-societa flex">
-                <div class="box left societa flex f-wrap">
+                <div class="box flex f-wrap">
                     <div class="company verde flex jc-c ai-c">
                         <img src="./assets/img/designit.svg" width="70%" alt="">
                     
@@ -339,8 +338,7 @@
                     </div>
                     <div class="company cubo rosso flex jc-c ai-c">
                         <img src="./assets/img/topps.svg" width="50%" alt="">
-                    </div>
-
+                    </div>                    
                 </div>
 
                 <div class="box center">
@@ -353,7 +351,7 @@
                     </div>
                 </div>
 
-                <div class="box right societa flex f-wrap">
+                <div class="box flex f-wrap">
                     <div class="company cubo rosso-scuro flex jc-c ai-c">
                         <img src="./assets/img/world_bicycle_relief.svg" width="60%" alt="">
                     </div>
@@ -366,14 +364,126 @@
                     <div class="company cubo giallo flex jc-c ai-c">
                         <img src="./assets/img/clear_channel.svg" width="60%" alt="">
                     </div>
-
                 </div>
+            </div>
 
+            <div class="footer-societa">
+                <div class="centramento dimensioni-box flex">
+                    <div class="left-f-s">
+                        <h3>Porta Dropbox Business <br> nella tua azienda. </h3>
+                    </div>
+                    <div class="right-f-s">
+                        <a href="#"><button class="blue">Inizia la tua prova gratuita</button></a>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section>
+            <div class="domande">
+                <div class="big-box-domande dimensioni-box">
+                    <h2 class="h2-domande">Domande frequenti</h2>
+                    <hr class="hr-domande">
+                    <div class="box-domande">
+                        <div class="domanda flex jc-b">
+                            <p>Qual è la differenza tra Dropbox business Standard e Dropbox Business Advance?</p>
+                                <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <div class="risposta">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente unde velit magnam repudiandae excepturi omnis consectetur aliquid non voluptatibus iste, exercitationem ut voluptas mollitia expedita quis, adipisci eos natus blanditiis.</p>
+                        </div>
+                    </div>
+                    <hr class="hr-domande">
+                    <div class="box-domande">
+                        <div class="domanda flex jc-b">
+                            <p>Qual è la differenza tra Dropbox business Standard e Dropbox Business Advance?</p>
+                                <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <div class="risposta">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente unde velit magnam repudiandae excepturi omnis consectetur aliquid non voluptatibus iste, exercitationem ut voluptas mollitia expedita quis, adipisci eos natus blanditiis.</p>
+                        </div>
+                    </div>
+                    <hr class="hr-domande">
+                    <div class="box-domande">
+                        <div class="domanda flex jc-b">
+                            <p>Qual è la differenza tra Dropbox business Standard e Dropbox Business Advance?</p>
+                                <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <div class="risposta">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente unde velit magnam repudiandae excepturi omnis consectetur aliquid non voluptatibus iste, exercitationem ut voluptas mollitia expedita quis, adipisci eos natus blanditiis.</p>
+                        </div>
+                    </div>
+                    <hr class="hr-domande">
+                </div>
+            </div>
+        </section>
     </header>
+
+    <footer>
+        <div class="cont-info">
+            <div class="big-box-info">
+                <div class="flex jc-b">
+                    <div class="info-dropbox">
+                        <h4>Dropbox</h4>
+                        <ul>
+                            <li><a class="a-footer" href="#">Applicazione desktop</a></li>
+                            <li><a class="a-footer" href="#">Perché Dropbox</a></li>
+                            <li><a class="a-footer" href="#">Piani</a></li>
+                            <li><a class="a-footer" href="#">Sicurezza</a><li>
+                            <li><a class="a-footer" href="#">Funzioni</a></li>
+                        </ul>                
+                    </div>
+
+                    <div class="info-dropbox">
+                        <h4>Dropbox</h4>
+                        <ul>
+                            <li><a class="a-footer" href="#">Applicazione desktop</a></li>
+                            <li><a class="a-footer" href="#">Perché Dropbox</a></li>
+                            <li><a class="a-footer" href="#">Piani</a></li>
+                            <li><a class="a-footer" href="#">Sicurezza</a><li>
+                            <li><a class="a-footer" href="#">Funzioni</a></li>
+                        </ul>                
+                    </div>
+
+                    <div class="info-dropbox">
+                        <h4>Dropbox</h4>
+                        <ul>
+                            <li><a class="a-footer" href="#">Applicazione desktop</a></li>
+                            <li><a class="a-footer" href="#">Perché Dropbox</a></li>
+                            <li><a class="a-footer" href="#">Piani</a></li>
+                            <li><a class="a-footer" href="#">Sicurezza</a><li>
+                            <li><a class="a-footer" href="#">Funzioni</a></li>
+                        </ul>                
+                    </div>
+
+                    <div class="info-dropbox">
+                        <h4>Dropbox</h4>
+                        <ul>
+                            <li><a class="a-footer" href="#">Applicazione desktop</a></li>
+                            <li><a class="a-footer" href="#">Perché Dropbox</a></li>
+                            <li><a class="a-footer" href="#">Piani</a></li>
+                            <li><a class="a-footer" href="#">Sicurezza</a><li>
+                            <li><a class="a-footer" href="#">Funzioni</a></li>
+                        </ul>                
+                    </div>
+
+                    <div class="info-dropbox">
+                        <h4>Dropbox</h4>
+                        <ul>
+                            <li><a class="a-footer" href="#">Applicazione desktop</a></li>
+                            <li><a class="a-footer" href="#">Perché Dropbox</a></li>
+                            <li><a class="a-footer" href="#">Piani</a></li>
+                            <li><a class="a-footer" href="#">Sicurezza</a><li>
+                            <li><a class="a-footer" href="#">Funzioni</a></li>
+                    </div>
+                </div>
+                <hr class="hr-footer">
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
 
+<!-- <i class="fa-solid fa-earth-europe"></i>
+<i class="fa-solid fa-sort-up"></i> -->
