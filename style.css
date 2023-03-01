@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/******* libreria *******/
 .flex{
     display: flex;
 }
@@ -37,6 +37,49 @@ li{
 a{
     text-decoration: none;
 }
+
+button{
+    border: 0;
+}
+/****** nav ******/
+
+.cont-nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.cont-nav ul li a{
+    color: black;
+}
+
+.cont-nav ul img{
+    vertical-align: middle;
+}
+
+nav{
+    height: 80px;
+    line-height: 80px;
+}
+
+.cont-nav ul li:not(#logo):hover{
+    border-bottom: 2px solid #0061FF;
+}
+
+.butt{
+    /* padding: 5px 10px; */
+}
+
+.inizia{
+    background-color: #0061FF;
+    padding: 5px 10px;
+}
+
+.accedi{
+    padding: 5px 10px;
+    background-color: white;
+}
+
 /****** Head titolo contenitore-testo e immagine- ******/
 
 .cont-head{
@@ -114,8 +157,10 @@ i{
 }
 
 .singolo, .Azienda, .Team{
-    border: 1px solid gray;
-    height: 35px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 35px; 
 }
 
 .professional{
@@ -128,9 +173,20 @@ i{
     margin: 0 auto;
 }
 
-.professional-box span{
+.professional-box ul li{
     padding: 10px 0 10px 0;
+    display: flex;
 }
+
+.professional-box ul li i{
+    margin-right: 5px;
+}
+
+.gutter-right .professional .blue{
+    margin-top: 37.4px;
+}
+
+
 
 .prova-gratuita{
     width: 100%;
@@ -173,6 +229,10 @@ i{
 .button-ufficio{
     width: 40%;
     text-align: center;
+}
+
+.button-vendite{
+    width: 100%;
 }
 
 
@@ -417,7 +477,7 @@ a{
     margin-top: 20px;
 }
 
-h4{
+.h4-footer{
     color: whitesmoke;
 }
 
